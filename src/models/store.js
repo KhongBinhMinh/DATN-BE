@@ -26,6 +26,14 @@ const storeSchema = new Schema(
       type: Number,
       required: true,
     },
+    open: {
+      type: Number,
+      required: true,
+    },
+    close: {
+      type: Number,
+      required: true,
+    },
     visiter: {
       type: Number,
       required: true,
